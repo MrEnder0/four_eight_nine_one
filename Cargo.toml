@@ -1,0 +1,16 @@
+[package]
+name = "four_eight_nine_one"
+version = "1.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+poise = "0.5.7"
+tokio = { version = "1.34.0", features = ["full"] }
+serde = { version = "1.0.193", features = ["derive"] }
+ron = "0.8.1"
+scorched = "0.3.2"
+reqwest = { version = "0.11.22", features = ["blocking"] }
+rustrict = "0.7.16"
+rand = "0.8.5"

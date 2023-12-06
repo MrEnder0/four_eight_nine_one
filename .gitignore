@@ -1,0 +1,6 @@
+/target
+
+# Generated files
+logs/*
+config.ron
+list
